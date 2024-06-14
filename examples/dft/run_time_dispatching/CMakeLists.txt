@@ -35,7 +35,11 @@ if(ENABLE_MKLGPU_BACKEND)
   list(APPEND DEVICE_FILTERS "level_zero:gpu")
 endif()
 if(ENABLE_PORTFFT_BACKEND)
+<<<<<<< HEAD
   list(APPEND_DEVICE_FILTERS "*.gpu")
+=======
+  list(APPEND DEVICE_FILTERS "*:gpu")
+>>>>>>> 1988d4e3bcea2ae8dbba1835dc0adb7d1047b5a6
 endif()
 if(ENABLE_CUFFT_BACKEND)
   list(APPEND DEVICE_FILTERS "cuda:gpu")

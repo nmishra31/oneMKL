@@ -1,10 +1,10 @@
-# oneAPI Math Kernel Library (oneMKL) Interfaces
+<img src="https://github.com/uxlfoundation/artwork/blob/main/foundation/uxl-foundation-logo-horizontal-color.png" alt="UXL Foundation Logo" width="250"/>
 
-<img align="left" src="https://spec.oneapi.io/oneapi-logo-white-scaled.jpg" alt="oneAPI logo">
+# oneAPI Math Kernel Library (oneMKL) Interfaces
 
 oneMKL Interfaces is an open-source implementation of the oneMKL Data Parallel C++ (DPC++) interface according to the [oneMKL specification](https://spec.oneapi.com/versions/latest/elements/oneMKL/source/index.html). It works with multiple devices (backends) using device-specific libraries underneath.
 
-oneMKL is part of [oneAPI](https://oneapi.io).
+oneMKL is part of the [UXL Foundation](http://www.uxlfoundation.org).
 <br/><br/>
 
 <table>
@@ -515,8 +515,8 @@ Product | Supported Version | License
 [AMD rocSOLVER](https://github.com/ROCm/rocSOLVER) | 5.0.0 | [AMD License](https://github.com/ROCm/rocSOLVER/blob/develop/LICENSE.md)
 [AMD rocFFT](https://github.com/ROCm/rocFFT) | rocm-5.4.3 | [AMD License](https://github.com/ROCm/rocFFT/blob/rocm-5.4.3/LICENSE.md)
 [NETLIB LAPACK](https://www.netlib.org/) | [5d4180c](https://github.com/Reference-LAPACK/lapack/commit/5d4180cf8288ae6ad9a771d18793d15bd0c5643c) | [BSD like license](http://www.netlib.org/lapack/LICENSE.txt)
-[portBLAS](https://github.com/codeplaysoftware/portBLAS) | 0.1 | [Apache License v2.0](https://github.com/codeplaysoftware/portBLAS/blob/master/LICENSE)
-[portFFT](https://github.com/codeplaysoftware/portFFT) | 0.1 | [Apache License v2.0](https://github.com/codeplaysoftware/portFFT/blob/master/LICENSE)
+[portBLAS](https://github.com/codeplaysoftware/portBLAS) | 0.1 | [Apache License v2.0](https://github.com/codeplaysoftware/portBLAS/blob/main/LICENSE)
+[portFFT](https://github.com/codeplaysoftware/portFFT) | 0.1 | [Apache License v2.0](https://github.com/codeplaysoftware/portFFT/blob/main/LICENSE)
 
 ---
 
@@ -533,9 +533,17 @@ Product | Supported Version | License
 
 ---
 
+## Governance
+
+The oneMKL Interfaces project is governed by the UXL Foundation and you can get involved in this project in multiple ways. It is possible to join the [Math Special Interest Group (SIG)](https://github.com/uxlfoundation/foundation/tree/main/math) meetings where the group discusses and demonstrates work using this project. Members can also join the Open Source and Specification Working Group meetings.
+
+You can also join the mailing lists for the [UXL Foundation](https://lists.uxlfoundation.org/g/main/subgroups) to be informed of when meetings are happening and receive the latest information and discussions.
+
+---
+
 ## Contributing
 
-See [CONTRIBUTING](CONTRIBUTING.md) for more information.
+You can contribute to this project and also contribute to [the specification for this project](https://spec.oneapi.io/versions/latest/elements/oneMKL/source/index.html). Please read the [CONTRIBUTING](CONTRIBUTING.md) page for more information. You can also contact oneMKL developers and maintainers via [UXL Foundation Slack](https://slack-invite.uxlfoundation.org/) using [#onemkl](https://uxlfoundation.slack.com/archives/onemkl) channel.
 
 ---
 
